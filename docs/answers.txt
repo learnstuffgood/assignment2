@@ -1,0 +1,64 @@
+10/8/2020
+Setup github account 4 years ago, but never used it until now.
+
+1. 
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 325 bytes | 325.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/learnstuffgood/assignment2.git
+   3f4e34d..38f0448  master -> master
+
+
+2.
+$ git rev-list --count HEAD
+9
+
+
+3. 
+Date:   Fri Oct 9 21:54:37 2020 -0500
+git log
+
+
+4. One reason that git branches are used is to facilitate testing of 
+new features without possibly messing up the main code base. Another
+reason branches are used is to allow multiple developers to work 
+together by allowing each one to have a similar reference point
+when developing new features or testing.
+
+5. git status lets you inspect the working directory while git log 
+only operates on the committed history.
+
+6. 
+git log --follow Vehicle.h
+
+
+7. 
+git log --grep=“file“
+
+8.
+(I) Inheritance in the context of OOP is the way one bases an 
+object or class on another object or class.
+(II) Polymorphism in the context of OOP describes the way different
+classes can be used with the same interface.
+(III) Encapsulation in the context of OOP is the process of 
+bundling data and the methods acting on that data into a single unit. 
+This is done to provide accessability without revealing complexity, and
+also to prevent unauthorized access to the data encapsulated.
+
+
+9. Integration manager workflows all have their own public and private
+repositories that answer to an integration manager, while in Dictator 
+and Lieutenant workflows have three levels of repositories: 
+One Central, one Dictator, and a number of Lieutenant repositories 
+that some developers, not all, are asigned to.
+
+10. Centralized workflows do not handle the division of labor as well
+as D&L workflows. A D&L workflow would have checks and balances in
+proportion to the larger number of developers (100), while a
+centralized workflow would likely result in chaos, and potentially,
+death.
